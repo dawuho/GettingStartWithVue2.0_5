@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My  Vue App</title>
+    <script src="../Scripts/vue.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <button v-on:click="show=!show">Show / Hide</button>
+      <p v-if="show">I'm part-time visible</p>
+      <p v-else>Am i visible?</p>
+      <p v-show="show">Hurry, I'm here!</p>
+    </div>
+  <script src="Scripts/5_1.js"></script>
+  </body>
+</html>
